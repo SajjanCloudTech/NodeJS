@@ -13,19 +13,3 @@ permissions:
     owner: ec2-user
     group: ec2-user
     mode: 755
-
-hooks:
-  BeforeInstall:
-    - location: app3/scripts/before_install.sh
-      timeout: 60
-      runas: root
-
-  AfterInstall:
-    - location: app3/scripts/after_install.sh
-      timeout: 60
-      runas: root
-
-  ApplicationStart:
-    - location: app3/scripts/start_server.sh
-      timeout: 60
-      runas: root
