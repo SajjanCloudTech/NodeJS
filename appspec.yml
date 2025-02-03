@@ -2,13 +2,13 @@ version: 0.0
 os: linux
 
 files:
-  - source: /app3/
-    destination: /var/www/app3
+  - source: /app4/
+    destination: /var/www/app4
 
 file_exists_behavior: OVERWRITE
 
 permissions:
-  - object: /app3/app3
+  - object: /app4/app4
     pattern: "**"
     owner: ec2-user
     group: ec2-user
