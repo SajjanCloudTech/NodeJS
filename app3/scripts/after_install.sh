@@ -1,7 +1,6 @@
 #!/bin/bash
 echo "Installing dependencies..."
-cd /var/www/app1
+cd /var/www/app3
 npm install
 
-cd /var/www/app2
-npm install
+
